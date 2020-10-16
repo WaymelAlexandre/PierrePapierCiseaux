@@ -1,37 +1,79 @@
-div{
-  width: 20cm;
-  background-color: rgba(242, 242, 243, 0.712);
-  border: gray;
-  position: fixed;
+.back{
+
+  display: flex;
+  position: relative;
+  background-color: rgb(224, 224, 228);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+.wap{
+  flex: 16cm;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+
+}
+.bordurdesign{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid rgb(82, 76, 109);
+  background-color: rgb(228, 229, 230);
+  width: 18cm;
   height: 8cm;
-  top:40%;
-  left:50%;
-  margin-top:-40px;
-  margin-left:-20%;
-
-
 }
-
-@keyframes flash {
-  0%, 50%, 100% {
-     opacity: 1;
-  }
-  25%, 75% {
-     opacity: 0;
-  }
-}
-
 button{
 
-  margin: 30px;
-  margin-top:45px ;
-  width: 5cm;
-  height: 5cm;
+  border: rgb(82, 76, 109) solid 2px;
 }
 img{
-  -webkit-tap-highlight-color: transparent;
-  border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
   width: 150px;
 }
+
+header{
+  margin-top: 5mm;
+  text-align: center;
+  width: 300px;
+  padding: 40px;
+  border: 5px double rgb(82, 76, 109) ;
+}
+
+
+
+
+/* .back{
+  display: flex;
+
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: row;
+  background-color: lawngreen;
+  width: 100%;
+}
+.bordurdesign{
+  background-color: lightcoral;
+}
+
+header{
+  text-align: center;
+  width: 300px;
+  padding: 40px;
+  border: 5px double plum ;
+  position:absolute;
+}
+
+.wap{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  background-color: hotpink;
+  height: 25cm;
+}
+
+
+*/
