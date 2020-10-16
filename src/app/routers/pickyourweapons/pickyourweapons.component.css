@@ -1,5 +1,11 @@
-.back{
 
+*{
+  font-family: 'Tangerine', serif;
+  font-size: 36px;
+  text-shadow: 4px 4px 4px #aaa;
+}
+
+.back{
   display: flex;
   position: relative;
   background-color: rgb(224, 224, 228);
@@ -11,7 +17,7 @@
 .wap{
   flex: 12cm;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
   flex-direction: column;
 
@@ -24,8 +30,8 @@
   border: 8px solid rgb(82, 76, 109);
   background-color: rgb(202, 203, 206);
 
-  width: 18cm;
-  height: 8cm;
+  width: 20cm;
+  height: 9cm;
 }
 .buttonseparator{
   display: flex;
@@ -36,6 +42,7 @@ button{
 
   border: rgb(82, 76, 109) solid 2px;
   margin-left: 0.4cm;
+
 }
 img{
   border-radius: 4px;
@@ -56,9 +63,12 @@ header{
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  height: 2cm;
+  height: 2.3cm;
 }
 .ok{
   width: 10cm;
   height: 1cm;
+}
+button:active{
+  background-color: rgb(123, 146, 161);
 }
