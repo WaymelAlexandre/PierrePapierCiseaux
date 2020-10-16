@@ -29,13 +29,13 @@
 }
 .buttonseparator{
   display: flex;
-  justify-content: space-around;
 
 
 }
 button{
-  margin-top: 10cm;
+
   border: rgb(82, 76, 109) solid 2px;
+  margin-left: 0.4cm;
 }
 img{
   border-radius: 4px;
@@ -55,15 +55,10 @@ header{
 .push{
   display: flex;
   justify-content: center;
-  align-items: center;
-  margin: 5mm;
+  align-items: flex-end;
+  height: 2cm;
 }
-.buttonorganised{
-
-}
-
 .ok{
-  margin: 0.5cm;
   width: 10cm;
+  height: 1cm;
 }
-
