@@ -9,23 +9,32 @@
 
 }
 .wap{
-  flex: 16cm;
+  flex: 12cm;
   display: flex;
   justify-content: end;
   align-items: center;
+  flex-direction: column;
 
 }
 .bordurdesign{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border: 2px solid rgb(82, 76, 109);
-  background-color: rgb(228, 229, 230);
+  flex-wrap: wrap-reverse;
+  border: 8px solid rgb(82, 76, 109);
+  background-color: rgb(202, 203, 206);
+
   width: 18cm;
   height: 8cm;
 }
-button{
+.buttonseparator{
+  display: flex;
+  justify-content: space-around;
 
+
+}
+button{
+  margin-top: 10cm;
   border: rgb(82, 76, 109) solid 2px;
 }
 img{
@@ -40,40 +49,21 @@ header{
   width: 300px;
   padding: 40px;
   border: 5px double rgb(82, 76, 109) ;
+  background-color: rgb(202, 203, 206);
+  color: rgb(82, 76, 109);
 }
-
-
-
-
-/* .back{
-  display: flex;
-
-  justify-content: center;
-  align-items: flex-start;
-  flex-direction: row;
-  background-color: lawngreen;
-  width: 100%;
-}
-.bordurdesign{
-  background-color: lightcoral;
-}
-
-header{
-  text-align: center;
-  width: 300px;
-  padding: 40px;
-  border: 5px double plum ;
-  position:absolute;
-}
-
-.wap{
+.push{
   display: flex;
   justify-content: center;
-  flex-direction: row;
   align-items: center;
-  background-color: hotpink;
-  height: 25cm;
+  margin: 5mm;
+}
+.buttonorganised{
+
 }
 
+.ok{
+  margin: 0.5cm;
+  width: 10cm;
+}
 
-*/
