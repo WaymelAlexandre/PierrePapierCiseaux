@@ -1,0 +1,50 @@
+
+
+
+<div class="mainbox">
+  <div class="bordurshow">
+    <div class="resulta">
+
+        <div class="stylebordurwin">
+          <H1>{{ this.pierreFeuilleCiseauxService.result }}</H1>
+        </div>
+        <div class="icondisplay">
+
+          <div *ngIf="playerIcon == 'Paper'">
+            <img alt="Paper" srcset="https://cdn3.iconfinder.com/data/icons/island-2/50/108-512.png">
+          </div>
+          <div *ngIf="playerIcon == 'Rock'">
+            <img alt="Rock" srcset="https://d30y9cdsu7xlg0.cloudfront.net/png/114557-200.png">
+          </div>
+          <div *ngIf="playerIcon == 'Scissors'">
+            <img alt="Scissors" srcset="https://image.flaticon.com/icons/png/512/40/40794.png">
+          </div>
+
+          <div style="font-size: 66px;">   vs     </div>
+
+          <div  class="Machine">
+            <div *ngIf="computerIcon == 'Paper'">
+              <img alt="Paper" srcset="https://cdn3.iconfinder.com/data/icons/island-2/50/108-512.png">
+            </div>
+            <div *ngIf="computerIcon == 'Rock'">
+              <img alt="Rock" srcset="https://d30y9cdsu7xlg0.cloudfront.net/png/114557-200.png">
+            </div>
+            <div *ngIf="computerIcon == 'Scissors'">
+              <img alt="Scissors" srcset="https://image.flaticon.com/icons/png/512/40/40794.png">
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <button (click)="tryagain('again')"> try again </button>
+        </div>
+    </div>
+  </div>
+</div>
+<!-- link icon
+            <img alt="Rock" srcset="https://d30y9cdsu7xlg0.cloudfront.net/png/114557-200.png">
+            <img alt="Scissor" srcset="https://image.flaticon.com/icons/png/512/40/40794.png">
+            <img alt="Paper" srcset="https://cdn3.iconfinder.com/data/icons/island-2/50/108-512.png">
+-->
+
+
