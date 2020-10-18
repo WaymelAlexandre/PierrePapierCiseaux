@@ -12,7 +12,7 @@ export class SelectionComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  selectOp(option: "Rock" | "Paper" | "Scissors")
+  selectOp(option: "Rock" | "Paper" | "Scissors") // selectOp  Button for the
   {
     this.pierreFeuilleCiseauxService.commitSelection(option)
   }
