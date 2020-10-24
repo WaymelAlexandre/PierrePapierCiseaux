@@ -45,6 +45,7 @@ button{
   margin-left: 0.4cm;
 
 }
+
 img{
   border-radius: 4px;
   padding: 5px;
@@ -96,3 +97,9 @@ button{
 }
 
 
+.green {
+  background-color:rgb(85, 103, 114);
+}
+.red {
+  background-color: rgb(255, 255, 255);
+}
