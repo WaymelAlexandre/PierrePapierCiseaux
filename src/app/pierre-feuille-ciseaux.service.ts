@@ -1,6 +1,10 @@
 import { Injectable, Input } from '@angular/core';
 import { Router } from '@angular/router';
 
+import { HttpClient } from '@angular/common/http';
+import { of } from 'rxjs';
+import { delay } from 'rxjs/operators';
+
 @Injectable({
   providedIn: 'root'
 })
@@ -10,7 +14,7 @@ export class PierreFeuilleCiseauxService {
   private computerNum: string;  //computer result
   public _result: string ;   //result line
 
-  constructor(private router: Router) { }
+  constructor(private router: Router, private client: HttpClient) { }
 
 
   get playeurresult(){ return this.playerSelection } // for send the result player to display component

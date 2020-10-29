@@ -1,6 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { PierreFeuilleCiseauxService } from '../pierre-feuille-ciseaux.service';
+import { PierreFeuilleCiseauxService } from '../../pierre-feuille-ciseaux.service';
 
 @Component({
   selector: 'app-display',
