@@ -14,16 +14,14 @@ export class DisplayComponent implements OnInit {
 
   ngOnInit(){ }
   tryagain(action: "again"){this.pierreFeuilleCiseauxService.commitAgain(action)}
-  checkP(){
-    if (this.pierreFeuilleCiseauxService.playeurresult === "Paper" ) { this.playerIcon = "Paper" }
-    if (this.pierreFeuilleCiseauxService.playeurresult === "Rock" ) {  this.playerIcon = "Rock"  }
-    if (this.pierreFeuilleCiseauxService.playeurresult === "Scissors" ) {  this.playerIcon = "Scissors"  }
-    if (this.pierreFeuilleCiseauxService.computerresult === "Scissors") { this.computerIcon = "Scissors" }
-    if (this.pierreFeuilleCiseauxService.computerresult === "Rock") { this.computerIcon = "Rock" }
-    if (this.pierreFeuilleCiseauxService.computerresult === "Paper") { this.computerIcon = "Paper" }
-
-
-  }
+  // checkP(){
+  //   if (this.pierreFeuilleCiseauxService.playerselect("Paper") == true ) { this.playerIcon = "Paper" }
+  //   if (this.pierreFeuilleCiseauxService.playeurresult === "Rock" ) {  this.playerIcon = "Rock"  }
+  //   if (this.pierreFeuilleCiseauxService.playeurresult === "Scissors" ) {  this.playerIcon = "Scissors"  }
+  //   if (this.pierreFeuilleCiseauxService.computerresult === "Scissors") { this.computerIcon = "Scissors" }
+  //   if (this.pierreFeuilleCiseauxService.computerresult === "Rock") { this.computerIcon = "Rock" }
+  //   if (this.pierreFeuilleCiseauxService.computerresult === "Paper") { this.computerIcon = "Paper" }
+  // }
 }
 
 
